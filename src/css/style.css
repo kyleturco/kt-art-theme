@@ -50,7 +50,7 @@
 
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: transparent; }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
@@ -218,5 +218,9 @@ input[type="search"] {
   h2,
   h3 {
     page-break-after: avoid; } }
+
+body {
+  background-color: blue;
+  background: blue; }
 
 /*# sourceMappingURL=style.css.map */
